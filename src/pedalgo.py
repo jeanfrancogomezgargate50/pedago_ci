@@ -125,7 +125,8 @@ class ServicioReservas:
         # para la demo de GitHub Actions (romper la prueba a proposito).
         if reserva["finalizada"]:
             return reserva["monto_cobrado"]
-        # -------------------------------------------------------------
+        """"""
+        """# -------------------------------------------------------------
 
         monto = self.calcular_tarifa(minutos_uso)
         reserva["finalizada"] = True
